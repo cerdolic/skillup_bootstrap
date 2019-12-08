@@ -35,6 +35,17 @@
       }
     }
 
+    &:hover {
+      .site-news-item__title a {
+        color: $color-accent;
+      }
+
+      .site-news-item__image {
+        border-color: $color-accent;
+        background-color: $color-accent;
+      }
+    }
+
     &__image {
       float: left;
       width: 75px;
@@ -81,6 +92,10 @@
     border-left: none;
     background-color: transparent;
     padding: 0;
+
+    margin-right: -1px;
+    margin-left: -1px;
+    
 
     a {
       display: block;
